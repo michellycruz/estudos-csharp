@@ -4,7 +4,7 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
-            int n1 = int.MinValue; 
+            int n1 = int.MinValue;
             int n2 = int.MaxValue;
             sbyte n3 = sbyte.MinValue;
             sbyte n4 = sbyte.MaxValue;
