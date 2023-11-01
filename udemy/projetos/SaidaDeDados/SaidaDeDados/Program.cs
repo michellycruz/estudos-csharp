@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace MyApp {
     class Program {
         static void Main(string[] args) {
@@ -14,6 +15,7 @@ namespace MyApp {
             Console.WriteLine(saldo);
             Console.WriteLine(saldo.ToString("F2"));
             Console.WriteLine(saldo.ToString("F4"));
+            Console.WriteLine(saldo.ToString("F4", CultureInfo.InvariantCulture));
         }
     }
 }
