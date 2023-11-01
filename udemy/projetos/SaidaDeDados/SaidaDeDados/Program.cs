@@ -1,21 +1,16 @@
 ﻿using System;
-
+using System.Globalization;
 
 namespace MyApp {
     class Program {
         static void Main(string[] args) {
-            char genero = 'F';
+
             int idade = 25;
             double saldo = 10.26789;
             string nome = "camila";
 
-            Console.WriteLine(nome);
-            Console.WriteLine(genero);
-            Console.WriteLine(idade);   
-            Console.WriteLine(saldo);
-            Console.WriteLine(saldo.ToString("F2"));
-            Console.WriteLine(saldo.ToString("F4"));
-            Console.WriteLine(saldo.ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine("{0} tem {1} anos de idade e tem o saldo igual a {2:F2} reais", nome, idade, saldo);
+            Console.WriteLine($"{nome} tem {idade} anos de idade e tem o saldo igual a {saldo:F2} reais");
         }
     }
 }
