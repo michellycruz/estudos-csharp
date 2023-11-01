@@ -11,6 +11,7 @@ namespace MyApp {
 
             Console.WriteLine("{0} tem {1} anos de idade e tem o saldo igual a {2:F2} reais", nome, idade, saldo);
             Console.WriteLine($"{nome} tem {idade} anos de idade e tem o saldo igual a {saldo:F2} reais");
+            Console.WriteLine(nome + " tem " + idade + " anos de idade e o tem saldo igual a " + saldo.ToString("F2") + " reais");
         }
     }
 }
