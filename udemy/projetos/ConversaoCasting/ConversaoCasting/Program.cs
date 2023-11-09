@@ -22,7 +22,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             //Console.WriteLine(b);
 
-            //outro exemplo 
+            //exemplo 1
 
             //double a;
             //int b;
@@ -31,6 +31,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //b = (int)a; //é arredondado pra 5
 
             //Console.WriteLine(b);
+
+            //exemplo 2
 
             int a = 5;
             int b = 2;
