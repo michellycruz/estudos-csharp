@@ -1,0 +1,14 @@
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\bin\Debug\net6.0\ConversaoCasting.exe
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\bin\Debug\net6.0\ConversaoCasting.deps.json
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\bin\Debug\net6.0\ConversaoCasting.runtimeconfig.json
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\bin\Debug\net6.0\ConversaoCasting.dll
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\bin\Debug\net6.0\ConversaoCasting.pdb
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.AssemblyInfoInputs.cache
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.AssemblyInfo.cs
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.csproj.CoreCompileInputs.cache
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.dll
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\refint\ConversaoCasting.dll
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.pdb
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ConversaoCasting.genruntimeconfig.cache
+C:\Users\mcsouza\Documents\GitHub\estudos-csharp\udemy\projetos\ConversaoCasting\ConversaoCasting\obj\Debug\net6.0\ref\ConversaoCasting.dll
