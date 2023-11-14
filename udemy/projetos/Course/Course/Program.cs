@@ -69,9 +69,6 @@ namespace Course {
             Console.WriteLine("Valor da peça:");
             double valorPc1 = double.Parse(Console.ReadLine());
 
-            valorPc1.ToString("F2", CultureInfo.InvariantCulture);
-            Console.WriteLine(valorPc1);
-
             Console.WriteLine("ID PEÇA 2:");
             int peca2 = int.Parse(Console.ReadLine());
 
@@ -80,8 +77,6 @@ namespace Course {
 
             Console.WriteLine("Valor da peça:");
             double valorPc2 = double.Parse(Console.ReadLine());
-
-            valorPc2.ToString("F2", CultureInfo.InvariantCulture);
 
             double total = (qntPeca1 * valorPc1) + (qntPeca2 * valorPc2);
 
