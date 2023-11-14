@@ -44,19 +44,48 @@ namespace Course {
 
             // ------------------------------------- EXERCICIO 4
 
-            Console.WriteLine("ID do funcionário: ");
-            int idFuncionario = int.Parse(Console.ReadLine());
+            //Console.WriteLine("ID do funcionário: ");
+            //int idFuncionario = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Número de horas trabalhadas");
-            double horasTrabalhadas = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Número de horas trabalhadas");
+            //double horasTrabalhadas = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Valor que recebe por hora: ");
-            double valorPorHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.WriteLine("Valor que recebe por hora: ");
+            //double valorPorHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double salario = horasTrabalhadas * valorPorHora;
+            //double salario = horasTrabalhadas * valorPorHora;
 
-            Console.WriteLine("NUMBER: " + idFuncionario);
-            Console.WriteLine("SALARY: U$ " + salario.ToString("F2", CultureInfo.InvariantCulture));
+            //Console.WriteLine("NUMBER: " + idFuncionario);
+            //Console.WriteLine("SALARY: U$ " + salario.ToString("F2", CultureInfo.InvariantCulture));
+
+            // ------------------------------------- EXERCICIO 5
+
+            Console.WriteLine("ID Peça 1:");
+            int peca1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Quantidade:");
+            int qntPeca1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Valor da peça:");
+            double valorPc1 = double.Parse(Console.ReadLine());
+
+            valorPc1.ToString("F2", CultureInfo.InvariantCulture);
+            Console.WriteLine(valorPc1);
+
+            Console.WriteLine("ID PEÇA 2:");
+            int peca2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Quantidade:");
+            int qntPeca2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Valor da peça:");
+            double valorPc2 = double.Parse(Console.ReadLine());
+
+            valorPc2.ToString("F2", CultureInfo.InvariantCulture);
+
+            double total = (qntPeca1 * valorPc1) + (qntPeca2 * valorPc2);
+
+            Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
