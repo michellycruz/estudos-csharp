@@ -9,8 +9,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string y = Console.ReadLine();
             string z = Console.ReadLine();
 
-            string s = Console.ReadLine();
-            string[] v = s.Split(' ');
+            string[] v = Console.ReadLine().Split(' ');
             string a = v[0];
             string b = v[1];
             string c = v[2];
