@@ -119,6 +119,18 @@ namespace Course {
             //else {
             //    Console.WriteLine("Impar");
             //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 1
+
+            Console.WriteLine("Informe um número inteiro");
+            int numero = int.Parse(Console.ReadLine());
+
+            if(numero < 0) {
+                Console.WriteLine("NUMERO NEGATIVO");
+            }
+            else {
+                Console.WriteLine("NUMERO POSITIVO");
+            }
         }
     }
 }
