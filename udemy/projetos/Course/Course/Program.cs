@@ -60,27 +60,30 @@ namespace Course {
 
             // ------------------------------------- EXERCICIO 5
 
-            Console.WriteLine("ID Peça 1:");
-            int peca1 = int.Parse(Console.ReadLine());
+            int codigoPeca1, codigoPeca2, quantidadePeca1, quantidadePeca2;
+            double preco1, preco2, total;
 
-            Console.WriteLine("Quantidade:");
-            int qntPeca1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("------------------ PRODUTO 1 -------------------");
+            Console.WriteLine("INFORME O CÓDIGO DO PRODUTO, QUANTIDADE E PREÇO POR UNIDADE");
 
-            Console.WriteLine("Valor da peça:");
-            double valorPc1 = double.Parse(Console.ReadLine());
+            string[] valores = Console.ReadLine().Split(' ');
+            codigoPeca1 = int.Parse(valores[0]);
+            quantidadePeca1 = int.Parse(valores[1]);
+            preco1 = double.Parse(valores[2], CultureInfo.InvariantCulture);
 
-            Console.WriteLine("ID PEÇA 2:");
-            int peca2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Quantidade:");
-            int qntPeca2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("------------------ PRODUTO 2 -------------------");
+            Console.WriteLine("INFORME O CÓDIGO DO PRODUTO, QUANTIDADE E PREÇO POR UNIDADE");
 
-            Console.WriteLine("Valor da peça:");
-            double valorPc2 = double.Parse(Console.ReadLine());
+            valores = Console.ReadLine().Split(' ');
+            codigoPeca2 = int.Parse(valores[0]);
+            quantidadePeca2 = int.Parse(valores[1]);
+            preco2 = double.Parse(valores[2], CultureInfo.InvariantCulture);
 
-            double total = (qntPeca1 * valorPc1) + (qntPeca2 * valorPc2);
+            total = preco1 * quantidadePeca1 + preco2 * quantidadePeca2;
 
-            Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("------------------ VALOR TOTAL -------------------");
+            Console.WriteLine("VALOR A PAGAR: R$" + total.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
