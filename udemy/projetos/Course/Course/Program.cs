@@ -87,25 +87,36 @@ namespace Course {
 
             // ------------------------------------- EXERCICIO 6
 
-            double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
+            //double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
 
-            Console.WriteLine("Informe o valor de A, B e C:");
-            String[] valores = Console.ReadLine().Split(' ');
-            a = double.Parse(valores[0], CultureInfo.InvariantCulture);
-            b = double.Parse(valores[1], CultureInfo.InvariantCulture);
-            c = double.Parse(valores[2], CultureInfo.InvariantCulture);
+            //Console.WriteLine("Informe o valor de A, B e C:");
+            //String[] valores = Console.ReadLine().Split(' ');
+            //a = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            //b = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            //c = double.Parse(valores[2], CultureInfo.InvariantCulture);
 
-            triangulo = a * c / 2;
-            circulo = 3.14159 * c * c;
-            trapezio = (a + b) / 2.0 * c;
-            quadrado = b * b;
-            retangulo = a * b;
+            //triangulo = a * c / 2;
+            //circulo = 3.14159 * c * c;
+            //trapezio = (a + b) / 2.0 * c;
+            //quadrado = b * b;
+            //retangulo = a * b;
 
-            Console.WriteLine("TRIÂNGULO: " + triangulo.ToString("F3", CultureInfo.InvariantCulture) +
-                "\nCIRCULO: " + circulo.ToString("F3", CultureInfo.InvariantCulture) +
-                "\nTRAPÉZIO: " + trapezio.ToString("F3", CultureInfo.InvariantCulture) +
-                "\nQUADRADO: " + quadrado.ToString("F3", CultureInfo.InvariantCulture) +
-                "\nRETÂNGULO: " + retangulo.ToString("F3", CultureInfo.InvariantCulture));
+            //Console.WriteLine(
+            //    "TRIÂNGULO: " + triangulo.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nCIRCULO: " + circulo.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nTRAPÉZIO: " + trapezio.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nQUADRADO: " + quadrado.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nRETÂNGULO: " + retangulo.ToString("F3", CultureInfo.InvariantCulture));
+
+            Console.WriteLine("Entre com um número inteiro");
+            int x = int.Parse(Console.ReadLine());
+
+            if( x % 2 == 0) {
+                Console.WriteLine("Par!");
+            }
+            else {
+                Console.WriteLine("Impar");
+            }
         }
     }
 }
