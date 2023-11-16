@@ -108,15 +108,17 @@ namespace Course {
             //    "\nQUADRADO: " + quadrado.ToString("F3", CultureInfo.InvariantCulture) +
             //    "\nRETÂNGULO: " + retangulo.ToString("F3", CultureInfo.InvariantCulture));
 
-            Console.WriteLine("Entre com um número inteiro");
-            int x = int.Parse(Console.ReadLine());
+            // ------------------------------------- TESTE AULA 27
 
-            if( x % 2 == 0) {
-                Console.WriteLine("Par!");
-            }
-            else {
-                Console.WriteLine("Impar");
-            }
+            //Console.WriteLine("Entre com um número inteiro");
+            //int x = int.Parse(Console.ReadLine());
+
+            //if( x % 2 == 0) {
+            //    Console.WriteLine("Par!");
+            //}
+            //else {
+            //    Console.WriteLine("Impar");
+            //}
         }
     }
 }
