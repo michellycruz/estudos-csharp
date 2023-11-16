@@ -122,15 +122,45 @@ namespace Course {
 
             // ------------------------------------- PARTE 2 - EXERCICIO 1
 
-            Console.WriteLine("Informe um número inteiro");
-            int numero = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Informe um número inteiro");
+            //int numero = int.Parse(Console.ReadLine());
 
-            if(numero < 0) {
-                Console.WriteLine("NUMERO NEGATIVO");
-            }
-            else {
-                Console.WriteLine("NUMERO POSITIVO");
-            }
+            //if(numero < 0) {
+            //    Console.WriteLine("NUMERO NEGATIVO");
+            //}
+            //else {
+            //    Console.WriteLine("NUMERO POSITIVO");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 2
+
+            //Console.WriteLine("INFORME UM NUMERO INTEIRO");
+            //int numero = int.Parse(Console.ReadLine());
+
+            //if (numero % 2 == 0) {
+            //    Console.WriteLine("PAR");
+            //}
+            //else {
+            //    Console.WriteLine("IMPAR");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 3
+
+            //Console.WriteLine("INFORME O VALOR DO PRIMEIRO E DO SEGUNDO NÚMERO");
+
+            //string[] valores = Console.ReadLine().Split(' ');
+
+            //int n1 = int.Parse(valores[0]);
+            //int n2 = int.Parse(valores[1]);
+
+            //if (n1 % n2 == 0 || n2 % n1 == 0) {
+            //    Console.WriteLine("SÃO MÚLTIPLOS");
+            //}
+            //else {
+            //    Console.WriteLine("NÃO SÃO MÚLTIPLOS");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 4
         }
     }
 }
