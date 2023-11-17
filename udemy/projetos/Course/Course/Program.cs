@@ -179,45 +179,66 @@ namespace Course {
 
             // ------------------------------------- PARTE 2 - EXERCICIO 5
 
-          
 
-            Console.WriteLine("Selecione o que deseja comprar e a quantidade:");
-            Console.WriteLine("1 - Cachorro Quente R$4.00");
-            Console.WriteLine("2 - X-Salada R$4.50");
-            Console.WriteLine("3 - X-Bacon R$5.00");
-            Console.WriteLine("4 - Torrada simples R$2.00");
-            Console.WriteLine("5 - Refrigerante R$1.50");
+            //Console.WriteLine("Selecione o que deseja comprar e a quantidade:");
+            //Console.WriteLine("1 - Cachorro Quente R$4.00");
+            //Console.WriteLine("2 - X-Salada R$4.50");
+            //Console.WriteLine("3 - X-Bacon R$5.00");
+            //Console.WriteLine("4 - Torrada simples R$2.00");
+            //Console.WriteLine("5 - Refrigerante R$1.50");
 
-            string[] valores = Console.ReadLine().Split(' ');
+            //string[] valores = Console.ReadLine().Split(' ');
 
-            int produto = int.Parse(valores[0]);
-            double quantidade = double.Parse(valores[1], CultureInfo.InvariantCulture);
-            double total = 0.0;
+            //int produto = int.Parse(valores[0]);
+            //double quantidade = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            //double total = 0.0;
 
-           
 
-            switch(produto) {
-                case 1:
-                    total = 4.00 * quantidade;
-                    break;
-                case 2:
-                    total = 4.50 * quantidade;
-                    break;
-                case 3:
-                    total = 5.00 * quantidade;
-                    break;
-                case 4:
-                    total = 2.00 * quantidade;
-                    break;
-                case 5:
-                    total = 1.50 * quantidade;
-                    break;
-                default: Console.WriteLine("Opção inválida");
-                    break;
 
+            //switch(produto) {
+            //    case 1:
+            //        total = 4.00 * quantidade;
+            //        break;
+            //    case 2:
+            //        total = 4.50 * quantidade;
+            //        break;
+            //    case 3:
+            //        total = 5.00 * quantidade;
+            //        break;
+            //    case 4:
+            //        total = 2.00 * quantidade;
+            //        break;
+            //    case 5:
+            //        total = 1.50 * quantidade;
+            //        break;
+            //    default: Console.WriteLine("Opção inválida");
+            //        break;
+
+            //}
+
+            //Console.WriteLine("TOTAL: " + total.ToString("F2", CultureInfo.InvariantCulture));
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 6
+
+            Console.WriteLine("Informe um valor");
+
+            double numero = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            if (numero < 0.0 || numero > 100.0) {
+                Console.WriteLine("Fora de intervalo");
             }
-
-            Console.WriteLine("TOTAL: " + total.ToString("F2", CultureInfo.InvariantCulture));
+            else if (numero <= 25.0) {
+                Console.WriteLine("Intervalo [0, 25]");
+            }
+            else if (numero <= 50.0) {
+                Console.WriteLine("Intervalo [25, 50]");
+            }
+            else if (numero <= 75.0) {
+                Console.WriteLine("Intervalo [50, 75]");
+            }
+            else {
+                Console.WriteLine("Intervalo [75, 100]");
+            }
         }
     }
 }
