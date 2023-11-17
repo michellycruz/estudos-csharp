@@ -161,6 +161,22 @@ namespace Course {
             //}
 
             // ------------------------------------- PARTE 2 - EXERCICIO 4
+
+            Console.WriteLine("Informe a hora de início e término de um jogo");
+            string[] valores = Console.ReadLine().Split(" ");
+            int inicio = int.Parse(valores[0]);
+            int termino = int.Parse(valores[1]);
+            int duracao;
+
+
+            if (inicio < termino) {
+                duracao = termino - inicio;
+            }
+            else {
+                duracao = 24 - inicio + termino;
+            }
+
+            Console.WriteLine("O jogo durou " + duracao + " horas");
         }
     }
 }
