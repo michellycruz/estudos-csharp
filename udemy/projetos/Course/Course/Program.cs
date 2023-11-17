@@ -162,21 +162,62 @@ namespace Course {
 
             // ------------------------------------- PARTE 2 - EXERCICIO 4
 
-            Console.WriteLine("Informe a hora de início e término de um jogo");
-            string[] valores = Console.ReadLine().Split(" ");
-            int inicio = int.Parse(valores[0]);
-            int termino = int.Parse(valores[1]);
-            int duracao;
+            //Console.WriteLine("Informe a hora de início e término de um jogo");
+            //string[] valores = Console.ReadLine().Split(' ');
+            //int inicio = int.Parse(valores[0]);
+            //int termino = int.Parse(valores[1]);
+            //int duracao;
 
+            //if (inicio < termino) {
+            //    duracao = termino - inicio;
+            //}
+            //else {
+            //    duracao = 24 - inicio + termino;
+            //}
 
-            if (inicio < termino) {
-                duracao = termino - inicio;
+            //Console.WriteLine("O JOGO DUROU " + duracao + " HORA(S)");
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 5
+
+          
+
+            Console.WriteLine("Selecione o que deseja comprar e a quantidade:");
+            Console.WriteLine("1 - Cachorro Quente R$4.00");
+            Console.WriteLine("2 - X-Salada R$4.50");
+            Console.WriteLine("3 - X-Bacon R$5.00");
+            Console.WriteLine("4 - Torrada simples R$2.00");
+            Console.WriteLine("5 - Refrigerante R$1.50");
+
+            string[] valores = Console.ReadLine().Split(' ');
+
+            int produto = int.Parse(valores[0]);
+            double quantidade = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            double total = 0.0;
+
+           
+
+            switch(produto) {
+                case 1:
+                    total = 4.00 * quantidade;
+                    break;
+                case 2:
+                    total = 4.50 * quantidade;
+                    break;
+                case 3:
+                    total = 5.00 * quantidade;
+                    break;
+                case 4:
+                    total = 2.00 * quantidade;
+                    break;
+                case 5:
+                    total = 1.50 * quantidade;
+                    break;
+                default: Console.WriteLine("Opção inválida");
+                    break;
+
             }
-            else {
-                duracao = 24 - inicio + termino;
-            }
 
-            Console.WriteLine("O jogo durou " + duracao + " horas");
+            Console.WriteLine("TOTAL: " + total.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
