@@ -60,27 +60,187 @@ namespace Course {
 
             // ------------------------------------- EXERCICIO 5
 
-            Console.WriteLine("ID Peça 1:");
-            int peca1 = int.Parse(Console.ReadLine());
+            //int codigoPeca1, codigoPeca2, quantidadePeca1, quantidadePeca2;
+            //double preco1, preco2, total;
 
-            Console.WriteLine("Quantidade:");
-            int qntPeca1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("--- PRODUTO 1 ---");
+            //Console.WriteLine("INFORME O CÓDIGO DO PRODUTO, QUANTIDADE E PREÇO POR UNIDADE");
 
-            Console.WriteLine("Valor da peça:");
-            double valorPc1 = double.Parse(Console.ReadLine());
+            //string[] valores = Console.ReadLine().Split(' ');
+            //codigoPeca1 = int.Parse(valores[0]);
+            //quantidadePeca1 = int.Parse(valores[1]);
+            //preco1 = double.Parse(valores[2], CultureInfo.InvariantCulture);
 
-            Console.WriteLine("ID PEÇA 2:");
-            int peca2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Quantidade:");
-            int qntPeca2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("--- PRODUTO 2 ---");
+            //Console.WriteLine("INFORME O CÓDIGO DO PRODUTO, QUANTIDADE E PREÇO POR UNIDADE");
 
-            Console.WriteLine("Valor da peça:");
-            double valorPc2 = double.Parse(Console.ReadLine());
+            //valores = Console.ReadLine().Split(' ');
+            //codigoPeca2 = int.Parse(valores[0]);
+            //quantidadePeca2 = int.Parse(valores[1]);
+            //preco2 = double.Parse(valores[2], CultureInfo.InvariantCulture);
 
-            double total = (qntPeca1 * valorPc1) + (qntPeca2 * valorPc2);
+            //total = preco1 * quantidadePeca1 + preco2 * quantidadePeca2;
 
-            Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2", CultureInfo.InvariantCulture));
+            //Console.WriteLine("--- VALOR TOTAL ---");
+            //Console.WriteLine("VALOR A PAGAR: R$" + total.ToString("F2", CultureInfo.InvariantCulture));
+
+            // ------------------------------------- EXERCICIO 6
+
+            //double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
+
+            //Console.WriteLine("Informe o valor de A, B e C:");
+            //String[] valores = Console.ReadLine().Split(' ');
+            //a = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            //b = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            //c = double.Parse(valores[2], CultureInfo.InvariantCulture);
+
+            //triangulo = a * c / 2;
+            //circulo = 3.14159 * c * c;
+            //trapezio = (a + b) / 2.0 * c;
+            //quadrado = b * b;
+            //retangulo = a * b;
+
+            //Console.WriteLine(
+            //    "TRIÂNGULO: " + triangulo.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nCIRCULO: " + circulo.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nTRAPÉZIO: " + trapezio.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nQUADRADO: " + quadrado.ToString("F3", CultureInfo.InvariantCulture) +
+            //    "\nRETÂNGULO: " + retangulo.ToString("F3", CultureInfo.InvariantCulture));
+
+            // ------------------------------------- TESTE AULA 27
+
+            //Console.WriteLine("Entre com um número inteiro");
+            //int x = int.Parse(Console.ReadLine());
+
+            //if( x % 2 == 0) {
+            //    Console.WriteLine("Par!");
+            //}
+            //else {
+            //    Console.WriteLine("Impar");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 1
+
+            //Console.WriteLine("Informe um número inteiro");
+            //int numero = int.Parse(Console.ReadLine());
+
+            //if(numero < 0) {
+            //    Console.WriteLine("NUMERO NEGATIVO");
+            //}
+            //else {
+            //    Console.WriteLine("NUMERO POSITIVO");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 2
+
+            //Console.WriteLine("INFORME UM NUMERO INTEIRO");
+            //int numero = int.Parse(Console.ReadLine());
+
+            //if (numero % 2 == 0) {
+            //    Console.WriteLine("PAR");
+            //}
+            //else {
+            //    Console.WriteLine("IMPAR");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 3
+
+            //Console.WriteLine("INFORME O VALOR DO PRIMEIRO E DO SEGUNDO NÚMERO");
+
+            //string[] valores = Console.ReadLine().Split(' ');
+
+            //int n1 = int.Parse(valores[0]);
+            //int n2 = int.Parse(valores[1]);
+
+            //if (n1 % n2 == 0 || n2 % n1 == 0) {
+            //    Console.WriteLine("SÃO MÚLTIPLOS");
+            //}
+            //else {
+            //    Console.WriteLine("NÃO SÃO MÚLTIPLOS");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 4
+
+            //Console.WriteLine("Informe a hora de início e término de um jogo");
+            //string[] valores = Console.ReadLine().Split(' ');
+            //int inicio = int.Parse(valores[0]);
+            //int termino = int.Parse(valores[1]);
+            //int duracao;
+
+            //if (inicio < termino) {
+            //    duracao = termino - inicio;
+            //}
+            //else {
+            //    duracao = 24 - inicio + termino;
+            //}
+
+            //Console.WriteLine("O JOGO DUROU " + duracao + " HORA(S)");
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 5
+
+
+            //Console.WriteLine("Selecione o que deseja comprar e a quantidade:");
+            //Console.WriteLine("1 - Cachorro Quente R$4.00");
+            //Console.WriteLine("2 - X-Salada R$4.50");
+            //Console.WriteLine("3 - X-Bacon R$5.00");
+            //Console.WriteLine("4 - Torrada simples R$2.00");
+            //Console.WriteLine("5 - Refrigerante R$1.50");
+
+            //string[] valores = Console.ReadLine().Split(' ');
+
+            //int produto = int.Parse(valores[0]);
+            //double quantidade = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            //double total = 0.0;
+
+
+
+            //switch(produto) {
+            //    case 1:
+            //        total = 4.00 * quantidade;
+            //        break;
+            //    case 2:
+            //        total = 4.50 * quantidade;
+            //        break;
+            //    case 3:
+            //        total = 5.00 * quantidade;
+            //        break;
+            //    case 4:
+            //        total = 2.00 * quantidade;
+            //        break;
+            //    case 5:
+            //        total = 1.50 * quantidade;
+            //        break;
+            //    default: Console.WriteLine("Opção inválida");
+            //        break;
+
+            //}
+
+            //Console.WriteLine("TOTAL: " + total.ToString("F2", CultureInfo.InvariantCulture));
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 6
+
+            //Console.WriteLine("Informe um valor");
+
+            //double numero = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //if (numero < 0.0 || numero > 100.0) {
+            //    Console.WriteLine("Fora de intervalo");
+            //}
+            //else if (numero <= 25.0) {
+            //    Console.WriteLine("Intervalo [0, 25]");
+            //}
+            //else if (numero <= 50.0) {
+            //    Console.WriteLine("Intervalo [25, 50]");
+            //}
+            //else if (numero <= 75.0) {
+            //    Console.WriteLine("Intervalo [50, 75]");
+            //}
+            //else {
+            //    Console.WriteLine("Intervalo [75, 100]");
+            //}
+
+            // ------------------------------------- PARTE 2 - EXERCICIO 7
         }
     }
 }
