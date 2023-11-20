@@ -263,29 +263,55 @@ namespace Course {
 
             // ------------------------------------- PARTE 2 - EXERCICIO 8
 
-            double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            double imposto;
+            //double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //double imposto;
 
 
-            if (salario <= 2000.0) {
-                imposto = 0.0;
+            //if (salario <= 2000.0) {
+            //    imposto = 0.0;
+            //}
+            //else if (salario <= 3000.0) {
+            //    imposto = (salario - 2000.0) * 0.08;
+            //}
+            //else if (salario <= 4500.0) {
+            //    imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
+            //}
+            //else {
+            //    imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+            //}
+
+            //if (imposto == 0.0) {
+            //    Console.WriteLine("Isento");
+            //}
+            //else {
+            //    Console.WriteLine("R$ " + imposto.ToString("F2", CultureInfo.InvariantCulture));
+            //}
+
+            Console.WriteLine("Digite três números: ");
+            int n1 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());
+            int n3 = int.Parse(Console.ReadLine());
+
+            double resultado = Maior(n1, n2, n3);
+
+
+
+            Console.WriteLine("Maior = " + resultado);
+        }
+
+        static int Maior(int a, int b, int c) {
+            int m;
+
+            if(a > b && a > c) {
+                m = a;
             }
-            else if (salario <= 3000.0) {
-                imposto = (salario - 2000.0) * 0.08;
-            }
-            else if (salario <= 4500.0) {
-                imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
-            }
-            else {
-                imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+            else if (b > c) {
+                m = b;
+            } else {
+                m = c;
             }
 
-            if (imposto == 0.0) {
-                Console.WriteLine("Isento");
-            }
-            else {
-                Console.WriteLine("R$ " + imposto.ToString("F2", CultureInfo.InvariantCulture));
-            }
+            return m;
         }
     }
 }
