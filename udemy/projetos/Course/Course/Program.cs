@@ -400,30 +400,40 @@ namespace Course {
 
             // ------------------------------------- PARTE 3 - EXERCICIO 03
 
-            Console.WriteLine("1. Álcool \n2. Gasolina \n3. Diesel");
-            int alcool = 0;
-            int gasolina = 0;
-            int diesel = 0;
-            int opcao = int.Parse(Console.ReadLine());
+            //Console.WriteLine("1. Álcool \n2. Gasolina \n3. Diesel");
+            //int alcool = 0;
+            //int gasolina = 0;
+            //int diesel = 0;
+            //int opcao = int.Parse(Console.ReadLine());
 
-            while (opcao != 4) {
-                switch (opcao) {
-                    case 1:
-                        alcool++;
-                        break;
-                    case 2:
-                        gasolina++;
-                        break;
-                    case 3:
-                        diesel++;
-                        break;
-                }
-                opcao = int.Parse((Console.ReadLine()));
+            //while (opcao != 4) {
+            //    switch (opcao) {
+            //        case 1:
+            //            alcool++;
+            //            break;
+            //        case 2:
+            //            gasolina++;
+            //            break;
+            //        case 3:
+            //            diesel++;
+            //            break;
+            //    }
+            //    opcao = int.Parse((Console.ReadLine()));
+            //}
+            //Console.WriteLine("MUITO OBRIGADO");
+            //Console.WriteLine("Alcool: " +  alcool);
+            //Console.WriteLine("Gasolina: " +  gasolina);
+            //Console.WriteLine("Diesel: " + diesel);
+
+            // ------------------------------------- AULA 34 - ESTRUTURA REPETITIVA PARA (FOR)
+
+            Console.WriteLine("Quantos números inteiros você vai digitar?");
+            int n = int.Parse(Console.ReadLine());
+
+            for(int i = 1; i <= n; i++) {
+                int valor = int.Parse(Console.ReadLine());
+                Console.WriteLine("Valor " + i + ": " + valor);
             }
-            Console.WriteLine("MUITO OBRIGADO");
-            Console.WriteLine("Alcool: " +  alcool);
-            Console.WriteLine("Gasolina: " +  gasolina);
-            Console.WriteLine("Diesel: " + diesel);
         }
     }
 }
