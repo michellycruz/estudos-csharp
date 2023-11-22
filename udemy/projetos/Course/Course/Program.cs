@@ -346,19 +346,57 @@ namespace Course {
 
             // ------------------------------------- AULA 32 - ESTRUTURA REPETITIVA ENQUANTO (WHILE)
 
-            Console.Write("Digite um número: ");
-            double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.Write("Digite um número: ");
+            //double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 
-            while (x >= 0.0) {
-                double raiz = Math.Sqrt(x);
-                Console.WriteLine(raiz.ToString("F3", CultureInfo.InvariantCulture));
+            //while (x >= 0.0) {
+            //    double raiz = Math.Sqrt(x);
+            //    Console.WriteLine(raiz.ToString("F3", CultureInfo.InvariantCulture));
 
-                Console.Write("Digite outro número: ");
-                x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //    Console.Write("Digite outro número: ");
+            //    x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //}
+
+            //Console.WriteLine("Número negativo, encerrando...");
+
+            // ------------------------------------- PARTE 3 - EXERCICIO 01
+
+            //Console.WriteLine("Informe a senha correta: ");
+            //int senha = int.Parse(Console.ReadLine());
+
+            //while (senha != 2002) {
+            //    Console.WriteLine("Senha Inválida");
+            //    senha = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("Acesso Permitido");
+
+            // ------------------------------------- PARTE 3 - EXERCICIO 02
+
+            Console.WriteLine("Informe o valor de X e de Y do plano cartesiano: ");
+            string[] valores = Console.ReadLine().Split(" ");
+            int x = int.Parse(valores[0]);
+            int y = int.Parse(valores[1]);
+
+            while (y != 0 && x != 0) {
+                if (x > 1 && y > 1) {
+                    Console.WriteLine("PRIMEIRO");
+                }
+                else if (x < 0 && y > 0) {
+                    Console.WriteLine("SEGUNDO");
+                }
+                else if (x < 0 && y < 0) {
+                    Console.WriteLine("TERCEIRO");
+                }
+                else {
+                    Console.WriteLine("QUARTO");
+                }
+
+                valores = Console.ReadLine().Split(" ");
+                x = int.Parse(valores[0]);
+                y = int.Parse(valores[1]);
             }
-
-            Console.WriteLine("Número negativo, encerrando...");
+            Console.WriteLine(" ");
         }
     }
 }
