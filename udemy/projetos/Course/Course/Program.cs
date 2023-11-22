@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Runtime.Serialization;
 
 namespace Course {
     class Program {
@@ -430,10 +431,14 @@ namespace Course {
             Console.WriteLine("Quantos números inteiros você vai digitar?");
             int n = int.Parse(Console.ReadLine());
 
+            int soma = 0;
             for(int i = 1; i <= n; i++) {
+                Console.WriteLine("Valor #{0}: ", i);
                 int valor = int.Parse(Console.ReadLine());
-                Console.WriteLine("Valor " + i + ": " + valor);
+                soma += valor;
             }
+
+            Console.WriteLine("Soma = " + soma);
         }
     }
 }
