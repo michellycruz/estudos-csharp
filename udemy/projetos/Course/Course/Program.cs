@@ -373,30 +373,57 @@ namespace Course {
 
             // ------------------------------------- PARTE 3 - EXERCICIO 02
 
-            Console.WriteLine("Informe o valor de X e de Y do plano cartesiano: ");
-            string[] valores = Console.ReadLine().Split(" ");
-            int x = int.Parse(valores[0]);
-            int y = int.Parse(valores[1]);
+            //Console.WriteLine("Informe o valor de X e de Y do plano cartesiano: ");
+            //string[] valores = Console.ReadLine().Split(" ");
+            //int x = int.Parse(valores[0]);
+            //int y = int.Parse(valores[1]);
 
-            while (y != 0 && x != 0) {
-                if (x > 1 && y > 1) {
-                    Console.WriteLine("PRIMEIRO");
-                }
-                else if (x < 0 && y > 0) {
-                    Console.WriteLine("SEGUNDO");
-                }
-                else if (x < 0 && y < 0) {
-                    Console.WriteLine("TERCEIRO");
-                }
-                else {
-                    Console.WriteLine("QUARTO");
-                }
+            //while (y != 0 && x != 0) {
+            //    if (x > 1 && y > 1) {
+            //        Console.WriteLine("PRIMEIRO");
+            //    }
+            //    else if (x < 0 && y > 0) {
+            //        Console.WriteLine("SEGUNDO");
+            //    }
+            //    else if (x < 0 && y < 0) {
+            //        Console.WriteLine("TERCEIRO");
+            //    }
+            //    else {
+            //        Console.WriteLine("QUARTO");
+            //    }
 
-                valores = Console.ReadLine().Split(" ");
-                x = int.Parse(valores[0]);
-                y = int.Parse(valores[1]);
+            //    valores = Console.ReadLine().Split(" ");
+            //    x = int.Parse(valores[0]);
+            //    y = int.Parse(valores[1]);
+            //}
+            //Console.WriteLine(" ");
+
+            // ------------------------------------- PARTE 3 - EXERCICIO 03
+
+            Console.WriteLine("1. Álcool \n2. Gasolina \n3. Diesel");
+            int alcool = 0;
+            int gasolina = 0;
+            int diesel = 0;
+            int opcao = int.Parse(Console.ReadLine());
+
+            while (opcao != 4) {
+                switch (opcao) {
+                    case 1:
+                        alcool++;
+                        break;
+                    case 2:
+                        gasolina++;
+                        break;
+                    case 3:
+                        diesel++;
+                        break;
+                }
+                opcao = int.Parse((Console.ReadLine()));
             }
-            Console.WriteLine(" ");
+            Console.WriteLine("MUITO OBRIGADO");
+            Console.WriteLine("Alcool: " +  alcool);
+            Console.WriteLine("Gasolina: " +  gasolina);
+            Console.WriteLine("Diesel: " + diesel);
         }
     }
 }
