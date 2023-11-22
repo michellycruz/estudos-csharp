@@ -315,6 +315,50 @@ namespace Course {
             //    }
 
             //    return m;
+
+            // ------------------------------------- AULA 31 - DEBUGGING COM VISUAL STUDIO
+
+            //    Console.WriteLine("Digite três números: ");
+            //    int n1 = int.Parse(Console.ReadLine());
+            //    int n2 = int.Parse(Console.ReadLine());
+            //    int n3 = int.Parse(Console.ReadLine());
+
+            //    double resultado = Maior(n1, n2, n3);
+
+
+
+            //    Console.WriteLine("Maior = " + resultado);
+            //}
+
+            //static int Maior(int a, int b, int c) {
+            //    int m;
+
+            //    if(a > b && a > c) {
+            //        m = a;
+            //    }
+            //    else if (b > c) {
+            //        m = b;
+            //    } else {
+            //        m = c;
+            //    }
+
+            //    return m;
+
+            // ------------------------------------- AULA 32 - ESTRUTURA REPETITIVA ENQUANTO (WHILE)
+
+            Console.Write("Digite um número: ");
+            double x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+
+            while (x >= 0.0) {
+                double raiz = Math.Sqrt(x);
+                Console.WriteLine(raiz.ToString("F3", CultureInfo.InvariantCulture));
+
+                Console.Write("Digite outro número: ");
+                x = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            }
+
+            Console.WriteLine("Número negativo, encerrando...");
         }
     }
 }
