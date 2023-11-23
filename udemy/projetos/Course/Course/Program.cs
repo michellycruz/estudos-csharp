@@ -475,18 +475,61 @@ namespace Course {
 
             // ------------------------------------- PARTE 4 - EXERCICIO 03
 
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < n; i++) {
+            //    string[] valores = Console.ReadLine().Split(" ");
+
+            //    double a = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            //    double b = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            //    double c = double.Parse(valores[2], CultureInfo.InvariantCulture);
+
+            //    double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
+
+            //    Console.WriteLine(media.ToString("F1", CultureInfo.InvariantCulture));
+            //}
+
+            // ------------------------------------- PARTE 4 - EXERCICIO 04
+
+            //Console.WriteLine("Informe o valor de N:");
+            //int n = int.Parse(Console.ReadLine());
+
+            //for(int i = 0; i < n; i++) {
+
+            //    string[] line = Console.ReadLine().Split(" ");
+
+            //    int x = int.Parse(line[0]);
+            //    int y = int.Parse(line[1]);
+
+            //    if(y == 0) {
+            //        Console.WriteLine("Divisão impossível");
+            //    }
+            //    else {
+            //        double div = (double)x / y;
+            //        Console.WriteLine(div.ToString("F1", CultureInfo.InvariantCulture));
+            //    }
+            //}
+
+            // ------------------------------------- PARTE 4 - EXERCICIO 05
+
+            //Console.WriteLine("Informe o valor de n");
+            //int n = int.Parse(Console.ReadLine());
+            //int fatorial = 1;
+
+            //for (int i = 1; i <= n; i++) {
+            //    fatorial = fatorial * i;
+            //}
+
+            //Console.WriteLine("O fatorial de " + n + " é " + fatorial);
+
+            // ------------------------------------- PARTE 4 - EXERCICIO 06
+            Console.WriteLine("Informe o valor de N");
             int n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < n; i++) {
-                string[] valores = Console.ReadLine().Split(" ");
-
-                double a = double.Parse(valores[0], CultureInfo.InvariantCulture);
-                double b = double.Parse(valores[1], CultureInfo.InvariantCulture);
-                double c = double.Parse(valores[2], CultureInfo.InvariantCulture);
-
-                double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
-
-                Console.WriteLine(media.ToString("F1", CultureInfo.InvariantCulture));
+            for (int i = 1; i <= n; i++) {
+                if (n % i == 0) {
+                    Console.WriteLine(i);
+                }
             }
         }
     }
