@@ -180,7 +180,6 @@ namespace Course {
 
             // ------------------------------------- PARTE 2 - EXERCICIO 5
 
-
             //Console.WriteLine("Selecione o que deseja comprar e a quantidade:");
             //Console.WriteLine("1 - Cachorro Quente R$4.00");
             //Console.WriteLine("2 - X-Salada R$4.50");
@@ -242,8 +241,6 @@ namespace Course {
             //}
 
             // ------------------------------------- PARTE 2 - EXERCICIO 7
-
-
 
             //string[] valores = Console.ReadLine().Split(' ');
 
@@ -452,6 +449,7 @@ namespace Course {
             //}
 
             // ------------------------------------- PARTE 4 - EXERCICIO 02
+
             //Console.WriteLine("Informe o valor de N:");
             //int n = int.Parse(Console.ReadLine());
 
@@ -523,14 +521,27 @@ namespace Course {
             //Console.WriteLine("O fatorial de " + n + " é " + fatorial);
 
             // ------------------------------------- PARTE 4 - EXERCICIO 06
-            Console.WriteLine("Informe o valor de N");
+
+            //Console.WriteLine("Informe o valor de N");
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= n; i++) {
+            //    if (n % i == 0) {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            // ------------------------------------- PARTE 4 - EXERCICIO 07
+
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= n; i++) {
-                if (n % i == 0) {
-                    Console.WriteLine(i);
-                }
+                int valor1 = i;
+                int valor2 = i * i;
+                int valor3 = i * i * i;
+                Console.WriteLine($"{valor1} {valor2} {valor3}");
             }
+
         }
     }
 }
