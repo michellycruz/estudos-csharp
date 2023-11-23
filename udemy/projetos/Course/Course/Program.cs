@@ -533,14 +533,14 @@ namespace Course {
 
             // ------------------------------------- PARTE 4 - EXERCICIO 07
 
-            int n = int.Parse(Console.ReadLine());
+            //int n = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= n; i++) {
-                int valor1 = i;
-                int valor2 = i * i;
-                int valor3 = i * i * i;
-                Console.WriteLine($"{valor1} {valor2} {valor3}");
-            }
+            //for (int i = 1; i <= n; i++) {
+            //    int valor1 = i;
+            //    int valor2 = i * i;
+            //    int valor3 = i * i * i;
+            //    Console.WriteLine($"{valor1} {valor2} {valor3}");
+            //}
 
         }
     }
