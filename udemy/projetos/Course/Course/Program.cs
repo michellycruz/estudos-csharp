@@ -440,9 +440,54 @@ namespace Course {
 
             //Console.WriteLine("Soma = " + soma);
 
-            // ------------------------------------- PARTE 3 - EXERCICIO 04
+            // ------------------------------------- PARTE 4 - EXERCICIO 01
 
+            //Console.Write("X = ");
+            //int x = int.Parse(Console.ReadLine());
 
+            //for (int i = 1; i <= x; i++) {
+            //    if (i % 2 != 0) {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            // ------------------------------------- PARTE 4 - EXERCICIO 02
+            //Console.WriteLine("Informe o valor de N:");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int count_in = 0;
+            //int count_out = 0;
+
+            //for(int i = 0; i < n; i++) {
+            //    Console.WriteLine("Informe os valores de X:");
+            //    int x = int.Parse(Console.ReadLine());
+
+            //    if(x >=10 && x <=20) {
+            //        count_in++;
+            //    }
+            //    else {
+            //        count_out++;
+            //    }
+            //}
+
+            //Console.WriteLine(count_in + " in");
+            //Console.WriteLine(count_out + " out");
+
+            // ------------------------------------- PARTE 4 - EXERCICIO 03
+
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < n; i++) {
+                string[] valores = Console.ReadLine().Split(" ");
+
+                double a = double.Parse(valores[0], CultureInfo.InvariantCulture);
+                double b = double.Parse(valores[1], CultureInfo.InvariantCulture);
+                double c = double.Parse(valores[2], CultureInfo.InvariantCulture);
+
+                double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
+
+                Console.WriteLine(media.ToString("F1", CultureInfo.InvariantCulture));
+            }
         }
     }
 }
