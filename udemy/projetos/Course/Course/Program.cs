@@ -573,7 +573,7 @@ namespace Course {
             //    Console.WriteLine("Maior área: Y");
             //}
 
-            // ------------------------------------- AULA 39  RESOLVENDO O PROBLEMA SEM ORIENTAÇÃO A OBJETOS
+            // ------------------------------------- AULA 39 - CRIANDO UMA CLASSE COM TRÊS ATRIBUTOS
         }
     }
 }
