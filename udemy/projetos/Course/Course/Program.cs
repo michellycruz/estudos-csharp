@@ -609,12 +609,29 @@ namespace Course {
             // ------------------------------------- PRIMEIROS EXERCÍCIOS - EXERCÍCIO 01
             //Fazer um programa para ler os dados de duas pessoas, depois mostrar o nome da pessoa mais velha.
 
-            Pessoas Nome, Idade;
 
-            Nome = new Pessoas();
-            Idade = new Pessoas();
+            Pessoas p1 = new Pessoas();
+            Pessoas p2 = new Pessoas();
 
-            Console.WriteLine(Console.ReadLine());
+            Console.WriteLine("Dados da primeira pessoa");
+            Console.Write("Nome: ");
+            p1.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p1.Idade = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Dados da segunda pessoa");
+            Console.Write("Nome: ");
+            p2.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p2.Idade = int.Parse(Console.ReadLine());
+
+            if( p1.Idade > p2.Idade) {
+                Console.WriteLine(p1.Nome + " é mais velha que " + p2.Nome);
+            } else if ( p2.Idade > p1.Idade) {
+                Console.WriteLine(p2.Nome + " é mais velha que " + p1.Nome);
+            } else {
+                Console.WriteLine("Tem a mesma idade");
+            }
         }
     }
 }
