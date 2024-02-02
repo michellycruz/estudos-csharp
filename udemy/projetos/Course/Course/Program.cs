@@ -656,7 +656,7 @@ namespace Course {
             p2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             double Media = (p1.Salario +  p2.Salario)/2;
-            Console.WriteLine("Media: " + Media);
+            Console.WriteLine("Media: " + Media.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
