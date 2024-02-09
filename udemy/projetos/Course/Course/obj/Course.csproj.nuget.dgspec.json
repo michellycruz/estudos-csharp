@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mcsouza\\Documents\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj": {}
+    "C:\\Users\\chell\\OneDrive\\Documentos\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mcsouza\\Documents\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj": {
+    "C:\\Users\\chell\\OneDrive\\Documentos\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mcsouza\\Documents\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj",
+        "projectUniqueName": "C:\\Users\\chell\\OneDrive\\Documentos\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj",
         "projectName": "Course",
-        "projectPath": "C:\\Users\\mcsouza\\Documents\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj",
-        "packagesPath": "C:\\Users\\mcsouza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mcsouza\\Documents\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\obj\\",
+        "projectPath": "C:\\Users\\chell\\OneDrive\\Documentos\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\Course.csproj",
+        "packagesPath": "C:\\Users\\chell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chell\\OneDrive\\Documentos\\GitHub\\estudos-csharp\\udemy\\projetos\\Course\\Course\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mcsouza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
