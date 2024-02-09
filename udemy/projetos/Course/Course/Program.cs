@@ -636,27 +636,27 @@ namespace Course {
             // ------------------------------------- PRIMEIROS EXERCÍCIOS - EXERCÍCIO 02
             //Fazer um programa para ler nome e salário de dois funcionários. Depois, mostrar o salário médio dos funcionários.
 
-            //Pessoas p1 = new Pessoas();
-            //Pessoas p2 = new Pessoas();
+            Pessoas p1 = new Pessoas();
+            Pessoas p2 = new Pessoas();
 
-            //Console.WriteLine("Informe os dados do primeiro funcionário");
-            //Console.Write("Nome: ");
-            //p1.Nome = Console.ReadLine();
-            //Console.Write("Idade: ");
-            //p1.Idade = int.Parse(Console.ReadLine());
-            //Console.Write("Salário: ");
-            //p1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Informe os dados do primeiro funcionário");
+            Console.Write("Nome: ");
+            p1.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p1.Idade = int.Parse(Console.ReadLine());
+            Console.Write("Salário: ");
+            p1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            //Console.WriteLine("Informe os dados do segundo funcionário");
-            //Console.Write("Nome: ");
-            //p2.Nome = Console.ReadLine();
-            //Console.Write("Idade: ");
-            //p2.Idade = int.Parse(Console.ReadLine());
-            //Console.Write("Salário: ");
-            //p2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Informe os dados do segundo funcionário");
+            Console.Write("Nome: ");
+            p2.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p2.Idade = int.Parse(Console.ReadLine());
+            Console.Write("Salário: ");
+            p2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            //double Media = (p1.Salario +  p2.Salario)/2.0;
-            //Console.WriteLine("Media: " + Media.ToString("F2", CultureInfo.InvariantCulture));
+            double Media = (p1.Salario +  p2.Salario)/2.0;
+            Console.WriteLine("Media: " + Media.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
